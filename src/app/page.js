@@ -1,95 +1,54 @@
 import Image from 'next/image'
-import styles from './page.module.css'
+import styles from './Home.module.css'
+import Head from 'next/head'
 
 export default function Home() {
   return (
-    <main className={styles.main}>
-      <div className={styles.description}>
-        <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>src/app/page.js</code>
-        </p>
-        <div>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{' '}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
-        </div>
-      </div>
+    <div className={styles.container}>
+    <Head>
+      <title>新乡市众城保障性住房经营管理有限公司</title>
+      <meta name="description" content="新乡市众城保障性住房经营管理有限公司" />
+      <link rel="icon" href="/favicon.ico" />
+    </Head>
 
-      <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
+    <main className={styles.main}>
+      <h1 className={styles.title}>
+        <img src="/logo_logo.png" width="100px"/>
+        众城保障房
+      </h1>
 
       <div className={styles.grid}>
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Docs <span>-&gt;</span>
-          </h2>
-          <p>Find in-depth information about Next.js features and API.</p>
+        <a className={styles.card}>
+          <img src="/pic2.jpg" className={styles.image}/>
+          <p>西苑丽景小区</p>
         </a>
 
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Learn <span>-&gt;</span>
-          </h2>
-          <p>Learn about Next.js in an interactive course with&nbsp;quizzes!</p>
+        <a className={styles.card}>
+          <img src="/pic6.jpg" className={styles.image}/>
+          <p>荣源小区</p>
         </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Templates <span>-&gt;</span>
-          </h2>
-          <p>Explore starter templates for Next.js.</p>
+        <a className={styles.card}>
+          <img src="/pic4.jpg" className={styles.image}/>
+          <p>乔谢小区</p>
         </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Deploy <span>-&gt;</span>
-          </h2>
-          <p>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
+        <a className={styles.card}>
+          <img src="/pic5.jpg" className={styles.image}/>
+          <p>新牧湾小区</p>
         </a>
       </div>
     </main>
+
+    <footer className={styles.footer}>
+      <p>新乡市众城保障性住房经营管理有限公司 © 2024 版权所有</p>
+      <p><a
+        href="https://beian.miit.gov.cn"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        豫ICP备2020034873号-1
+      </a>
+      <a href='https://beian.mps.gov.cn/#/query/webSearch'><img src="/beian.png" width="16" />豫公网安备41070202001303号</a></p>
+    </footer>
+  </div>
   )
 }
