@@ -52,3 +52,5 @@ export default function Home() {
   </div>
   )
 }
+
+// 218.29.57.190 - static server ip
