@@ -13,7 +13,7 @@ export default function Home() {
 
     <main className={styles.main}>
       <h1 className={styles.title}>
-        <img src="/logo_logo.png" width="100px"/>
+        <img src="/logo_logo.png"/>
         众城保障房
       </h1>
 
@@ -28,11 +28,11 @@ export default function Home() {
           <p>荣源小区</p>
         </a>
         <a className={styles.card}>
-          <img src="/pic4.jpg" className={styles.image}/>
+          <img src="/pic4.jpg"  className={styles.image}/>
           <p>乔谢小区</p>
         </a>
         <a className={styles.card}>
-          <img src="/pic5.jpg" className={styles.image}/>
+          <img src="/pic5.jpg"  className={styles.image}/>
           <p>新牧湾小区</p>
         </a>
       </div>
