@@ -45,7 +45,7 @@ export default function Home() {
         target="_blank"
         rel="noopener noreferrer"
       >
-        豫ICP备2020034873号-1
+        豫ICP备2020034873号-2
       </a>
       <a href='https://beian.mps.gov.cn/#/query/webSearch'><img src="/beian.png" width="16" />豫公网安备41070202001303号</a></p>
     </footer>
