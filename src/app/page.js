@@ -1,15 +1,9 @@
 // import Image from 'next/image'
 import styles from './Home.module.css'
-import Head from 'next/head'
 
 export default function Home() {
   return (
     <div className={styles.container}>
-    <Head>
-      <title>新乡市众城保障性住房经营管理有限公司</title>
-      <meta name="description" content="新乡市众城保障性住房经营管理有限公司" />
-      <link rel="icon" href="/favicon.ico" />
-    </Head>
 
     <main className={styles.main}>
       <h1 className={styles.title}>
