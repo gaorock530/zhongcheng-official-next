@@ -7,17 +7,19 @@
 .yarn/install-state.gz
 
 *.lock
+*-lock.*
 
 # testing
 /coverage
 
 # next.js
 /.next/
-/dist
+
 
 # production
 /build
 /out
+/dist
 
 # misc
 .DS_Store

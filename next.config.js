@@ -14,13 +14,13 @@ const nextConfig = {
   images: { unoptimized: true },
   
  
-  sassOptions: {
-    includePaths: [path.join(__dirname, 'styles')],
-  },
-  generateBuildId: async () => {
-    // This could be anything, using the latest git hash
-    return '123'
-  },
+  // sassOptions: {
+  //   includePaths: [path.join(__dirname, 'styles')],
+  // },
+  // generateBuildId: async () => {
+  //   // This could be anything, using the latest git hash
+  //   return '123'
+  // },
 }
 
 module.exports = nextConfig
