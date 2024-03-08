@@ -12,7 +12,7 @@ const nextConfig = {
   // Optional: Change the output directory `out` -> `dist`
   distDir: 'dist',
   images: { unoptimized: true },
-  assetPrefix: './'
+  // assetPrefix: './'
   
  
   // sassOptions: {
