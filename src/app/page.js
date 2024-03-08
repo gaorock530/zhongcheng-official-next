@@ -6,10 +6,11 @@ export default function Home() {
     <div className="container">
 
     <main className="main">
-      <h1 className="title">
+      <div className='title'>
         <img src="/logo_logo.png"/>
-        众城保障房
-      </h1>
+        <h1>众城保障房</h1>
+      </div>
+      
 
       <div className="grid">
         <a className="card">
